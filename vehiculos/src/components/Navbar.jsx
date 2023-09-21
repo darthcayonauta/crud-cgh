@@ -14,10 +14,7 @@ function Navbar(){
                         <Link to={"/"} 
                         className="bg-indigo-500 px-4 py-3 rounded-sm">Home</Link>
                     </li>
-                    <li>
-                        <Link to={"/vehiculos"} 
-                        className="bg-indigo-500 px-4 py-3 rounded-sm">Lista de Vehiculos</Link>
-                    </li>
+             
                     <li>
                         <Link to={"/formVehiculos"} 
                         className="bg-indigo-500 px-4 py-3 rounded-sm">Formulario de Vehiculos</Link>

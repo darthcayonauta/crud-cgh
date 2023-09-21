@@ -16,7 +16,7 @@ function App() {
               <main className="container mx-auto p-11">
                 <Navbar />
                 <Routes>
-                  <Route path="/" element={<Home />} />
+                  <Route path="/" element={<Vehiculos />} />
                   <Route path="/vehiculos" element={<Vehiculos />} />
                   <Route path="/formVehiculos" element={<FormVehiculos/>} />
                   <Route path="/vehiculos/:id" element={<FormVehiculos/>}/>

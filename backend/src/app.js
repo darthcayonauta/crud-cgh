@@ -3,7 +3,7 @@ import morgan from "morgan"
 import vehiculosRouter from "./routes/vehiculos.routes.js"
 import cors from 'cors'
 
-
+//origin: "http://localhost:5173",
 const app = express();
 app.use(cors({
     origin: "http://localhost:5173",
